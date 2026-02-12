@@ -184,7 +184,7 @@ h1 {
     font-size: 1.25rem;
 }
 
-.product-description {
+.product-description, .sidebar-card p{
     font-size: 1rem;
     font-weight: 400;
     color: #666;
@@ -225,4 +225,24 @@ h1 {
     width: 100%;
     aspect-ratio: 16 / 9;
     height: auto;
+}
+
+.hour-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hour-time{
+    font-weight: 600 !important;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-form{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
 }
