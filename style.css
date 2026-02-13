@@ -320,7 +320,7 @@ textarea {
 
 footer {
   background-color: #333;
-  padding: 4rem 0;
+  padding: 4rem 0 2rem 0;
   color: #fcfcfc;
 }
 
@@ -364,6 +364,17 @@ footer {
 
 #footer-hours {
   flex: 1;
+  color: #ccc;
+}
+
+.hours-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#footer-hours .hours-card {
+  max-width: 80%;
 }
 
 #footer-contanct {
@@ -376,13 +387,33 @@ footer {
   margin-bottom: 1rem;
 }
 
-#footer-menu ul{
+#footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#footer-menu ul li a {
+  color: #ccc;
+}
+
+.footer-contacts {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    color: #ccc;
 }
 
-#footer-menu ul li a{
+.footer-contact-item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+
+#copyrights{
+    margin-top: 2rem;
+    text-align: center;
     color: #ccc;
 }
 
