@@ -134,10 +134,17 @@ h1 {
   overflow: hidden;
   box-shadow: 5px 5px 5px #ccc;
   background-color: #f9f9f9;
+  transition: transform 0.2s ease;
+}
+.product-card:hover {
+  transform: translatex(-5px) translateY(-3px);
 }
 
 .product-card img {
   max-width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
 }
 
 .section-title {
@@ -298,6 +305,11 @@ textarea {
   align-items: center;
 }
 
+.testimonial-person img {
+    border-radius: 100%;
+    width: 50px;
+}
+
 .testimonial-card img {
   max-width: 100px;
 }
@@ -398,22 +410,21 @@ footer {
 }
 
 .footer-contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    color: #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #ccc;
 }
 
 .footer-contact-item {
-    display: flex;
-    justify-content: flex-start;
-    gap: 1rem;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
 }
 
-#copyrights{
-    margin-top: 2rem;
-    text-align: center;
-    color: #ccc;
+#copyrights {
+  margin-top: 2rem;
+  text-align: center;
+  color: #ccc;
 }
-
