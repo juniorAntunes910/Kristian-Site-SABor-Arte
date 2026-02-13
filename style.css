@@ -255,7 +255,8 @@ textarea {
   font-family: "Outfit", sans-serif;
 }
 
-.form-btn, #newsletter-btn {
+.form-btn,
+#newsletter-btn {
   background-color: #333;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -312,8 +313,76 @@ textarea {
   align-items: center;
 }
 
-#newsletter-btn:hover{
-    background-color: #666;
-    border: 0;
+#newsletter-btn:hover {
+  background-color: #666;
+  border: 0;
+}
+
+footer {
+  background-color: #333;
+  padding: 4rem 0;
+  color: #fcfcfc;
+}
+
+#main-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#footer-about {
+  flex: 1;
+}
+
+#footer-about h2 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+#footer-about-description {
+  color: #ccc;
+  margin-bottom: 2rem;
+  max-width: 80%;
+}
+
+#about-social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+#about-social-icons i {
+  width: 2rem;
+  height: 2rem;
+  background-color: #333;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+#footer-links {
+  flex: 1;
+}
+
+#footer-hours {
+  flex: 1;
+}
+
+#footer-contanct {
+  flex: 1;
+}
+
+.footer-titles {
+  font-family: "DM Serif Display", serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#footer-menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#footer-menu ul li a{
+    color: #ccc;
 }
 
